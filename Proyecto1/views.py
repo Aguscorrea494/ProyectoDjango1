@@ -1,5 +1,5 @@
 from django.http import HttpResponse  # se importa django
-from django.shortcuts import render
+from django.shortcuts import render # se importa el render para usar html
 
 def saludo(response):
     return HttpResponse("Hola django")
